@@ -1,0 +1,3 @@
+# Group no-robots-allowed
+User-agent: *
+Disallow: /

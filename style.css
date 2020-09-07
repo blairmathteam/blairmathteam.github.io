@@ -1,0 +1,328 @@
+
+h1 span {
+  font-family: 'Times New Roman', Times, serif !important;
+  filter: blur(2px)
+}
+h1 {
+  font-size: 10em;
+}
+/* double scrollbars give double the accessibility */
+html {
+    overflow: scroll !important;
+    height: 100.1% !important;
+    width: 100.1% !important;
+    cursor:progress;
+}
+body {
+    overflow: scroll !important;
+    height: 200% !important;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ body {
+	background: linear-gradient(-45deg, white, #505050, lightblue, lightgoldenrodyellow);
+  background-image: url("https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse1.mm.bing.net%2Fth%3Fid%3DOIP.Qh52jawL56jhBfun0vyL3AHaEp%26pid%3DApi&f=1");
+  background-position: 50vh 50vw;
+  background-size: 400% 400%;
+  background-repeat: true;
+	animation: gradient 15s ease infinite;
+}
+
+#randText {
+  font-size: 24px;
+}
+
+.cssmarquee {
+height: 50px;
+overflow: hidden;
+position: relative;
+}
+.cssmarquee {
+color: brown; 
+z-index: 1000;  
+background-color: rgba(255, 192, 200, 0.8);
+margin: 0;
+width: auto;
+text-align: left;
+animation: cssmarquee 2s linear infinite alternate;
+}
+
+@keyframes cssmarquee {
+0% {
+transform: translateX(70%);
+}
+100% {
+transform: translateX(0%);
+}
+}
+
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+
+
+      #image {
+        position: absolute;
+      }
+      .overlays {
+        z-index: -1;
+        position: absolute;
+      }
+
+
+
+
+
+
+#circle{
+  position: relative;
+  bottom: 50vh;
+    width:50px;
+    height:100px;
+    background:red;
+    border-radius:50%;
+    margin-top:100px;
+  }
+p{
+  text-align:center;
+  color:yellow;
+  }
+.bounce{
+  animation:bounce 5s linear 100;
+  }
+ @keyframes bounce{
+    0%{
+      transform:translate(0px,0px);
+     
+      }
+    25%{
+       transform:translate(100px,100px);
+      
+      }
+    50%{
+       transform:translate(200px,0px);  
+      background:green;
+      }
+     75%{
+       transform:translate(100px,-100px);
+        
+
+       }
+   100%{
+      transform:translate(0px,0px);
+      
+      }   
+   }
+
+
+
+
+/* ZOOMOMMOMOMOOMMOMOMOMO */
+/* width */
+::-webkit-scrollbar {
+  width: 50px;
+}
+
+@-webkit-keyframes rainbow {
+    0%{background-position:0% 82%}
+    50%{background-position:100% 19%}
+    100%{background-position:0% 82%}
+}
+@-moz-keyframes rainbow {
+    0%{background-position:0% 82%}
+    50%{background-position:100% 19%}
+    100%{background-position:0% 82%}
+}
+@-o-keyframes rainbow {
+    0%{background-position:0% 82%}
+    50%{background-position:100% 19%}
+    100%{background-position:0% 82%}
+}
+@keyframes rainbow { 
+    0%{background-position:0% 82%}
+    50%{background-position:100% 19%}
+    100%{background-position:0% 82%}
+}
+
+
+/* Track */
+div{
+	background: linear-gradient(124deg, #ff2400, #e81d1d, #e8b71d, #e3e81d, #1de840, #1ddde8, #2b1de8, #dd00f3, #dd00f3);
+
+	-webkit-animation: rainbow 18s ease infinite;
+	-z-animation: rainbow 18s ease infinite;
+	-o-animation: rainbow 18s ease infinite;
+	animation: rainbow 18s ease infinite;
+	background-size: 700% 700%;
+}
+
+
+::-webkit-scrollbar-thumb {
+  background: linear-gradient(124deg, #ff2400, #e81d1d, #e8b71d, #e3e81d, #1de840, #1ddde8, #2b1de8, #dd00f3, #dd00f3);
+
+	-webkit-animation: rainbow 18s ease infinite;
+	-z-animation: rainbow 18s ease infinite;
+	-o-animation: rainbow 18s ease infinite;
+	animation: rainbow 18s ease infinite;
+	background-size: 700% 700%;
+}
+
+
+
+
+/* Handle */
+::-webkit-scrollbar-track {
+  background: black;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+* {
+    /* kmh stop looking */
+    font-family: "Comic Sans MS", sans-serif !important;
+	    -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
