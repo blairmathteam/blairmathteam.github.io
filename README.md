@@ -1,4 +1,4 @@
 # blairmathteam.github.io
-site at http://goto.blairmath.team/
+[site](http://goto.blairmath.team/)
 
-email at goto@blairmath.team
+[contact](mailto:goto@blairmath.team)
