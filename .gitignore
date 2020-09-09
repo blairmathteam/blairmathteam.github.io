@@ -1,0 +1,9 @@
+# IDE
+/.idea
+
+# macs :(
+.DS_Store
+
+# because I like having a run script
+run.sh
+
