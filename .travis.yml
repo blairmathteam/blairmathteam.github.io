@@ -1,0 +1,23 @@
+language: python
+python:
+  - "3.6"
+branches:
+  only: ["master"]
+script:
+  - python3 -m http.server 8080
+before_script:
+  - echo "Testing..."
+after_script:
+  - echo "Done!"
+deploy:
+  - provider: script
+    script: git push origin master
+    on:
+      branch:
+        master
+before_deploy:
+  - echo "Hacking..." # TODO: Implement the GUI interface in visual basic to track an IP address
+  - sleep 5
+  - echo "Deploying to the enemy server..."
+after_deploy:
+  - echo "Done!"
