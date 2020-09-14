@@ -23,6 +23,6 @@ jobs:
         with:
           host: blairmath.team
           username: methtemz
-          password: mathteammovedtoroom314
+          password: $(PASSWD)
           port: 22
           script: cd /var/www/math && git pull
